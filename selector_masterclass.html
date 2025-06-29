@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Element selector */
+        div {
+            /* background-color: red; */
+        }
+
+        /* Class selector */
+        .red {
+            background-color: red;
+        }
+
+        /* Id selector */
+        #green {
+            background-color: green;
+        }
+
+        /* child seletor */
+        div>p {
+            color: rgb(255, 251, 0);
+            background-color: rgb(213, 135, 191);
+        }
+
+        /* descendant seletor */
+        div p {
+            color: rgb(255, 251, 0);
+            background-color: rgb(213, 135, 191);
+        }
+
+        /* universal selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* pseudo  selector */
+        a:visited {
+            color: greenyellow;
+        }
+
+        a:link {
+            color: purple;
+        }
+        a:active{
+            background-color: coral;
+        }
+        a:hover{
+            background-color: burlywood;
+        }
+        p:first-child{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+
+<body>
+   <main class="one">
+    <p>i am first</p>
+    <p>i am second</p>
+
+   </main>
+    <div class="red">
+        Lorem ipsum dolor sit amet.
+        <article>
+            <p>i am para inside div</p>
+        </article>
+
+    </div>
+    <div id="green">
+        i am another div
+    </div>
+    <a  href="https://www.google.com"> go to Google</a>
+    <a  href="https://www.facebook2.com"> go to Facebook</a>
+</body>
+
+</html>
