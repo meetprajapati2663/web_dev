@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        :root{
+            --color:rgb(141, 49, 141);
+            --seccolor:rgb(229, 31, 229);
+            --firstchild:rgb(59, 217, 59);
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            display: flex;
+        }
+
+        ul li {
+            list-style: none;
+            padding: 34px;
+            /* margin: 2px; */
+        }
+        .nav{
+               padding: 5px;
+            margin: 5px;
+            background-color: var(--color);
+        }
+        .container{
+            padding: 5px;
+            margin: 5px;
+            background-color: var(--seccolor);
+        }
+        ul li:first-child{
+            background-color: var(--firstchild);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+        </ul>
+
+    </div>
+
+    <div class="container">
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum nemo enim dicta deleniti adipisci fugiat
+            vitae nisi illo, iusto officiis voluptatem? Deleniti id cumque, obcaecati dicta enim culpa modi perferendis.
+        </p>
+    </div>
+</body>
+
+</html>
