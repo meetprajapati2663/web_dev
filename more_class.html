@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .box:first-child {
+            background-color: red;
+        }
+        .box::first-line{
+            color: cornflowerblue;
+        } */
+        /* .boxes *{
+            border: 2px solid black ;
+            color: blue;
+        } */
+        /* .box:nth-last-child(1){
+            background-color: blue;
+        } */
+         .boxes::before{
+            content: "meet prajapati";
+         }
+         /* .boxes::after{
+            content: "meet ";
+            color: red;
+         } */
+          ::selection{
+            color: blue;
+            background-color: black;
+          }
+
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div class="box">i am a box</div>
+        <div class="box">i am a box</div>
+        <div class="box">i am a box</div>
+    </div>
+</body>
+
+</html>
